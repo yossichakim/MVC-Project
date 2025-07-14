@@ -201,7 +201,7 @@ class AddMovieForm(QWidget):
 
     def load_api_movie_ids(self):
         try:
-            with open('c:/Users/User/source/repos/MVC - Project/id\'s_from_api.json', 'r') as file:
+            with open('c:/Users/User/source/repos/movie-review-platform/id\'s_from_api.json', 'r') as file:
                 return set(sorted(json.load(file)))  # Sort IDs when loading
         except FileNotFoundError:
             return set()
