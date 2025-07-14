@@ -162,7 +162,7 @@ class MovieView(QMainWindow):
         self.search_button = QPushButton()
         self.search_button.setCursor(Qt.CursorShape.PointingHandCursor)
         self.search_button.setFixedSize(50, 40)  # Increase height to match the search input
-        search_icon = QIcon(r"Front-End\movies img\search.svg")
+        search_icon = QIcon(r"movies img\search.svg")
         self.search_button.setIcon(search_icon)
         self.search_button.setIconSize(QSize(24, 24))
         self.search_button.setFixedHeight(30)  # Set height to 30px
@@ -187,7 +187,7 @@ class MovieView(QMainWindow):
         self.add_button = QPushButton()
         self.add_button.setCursor(Qt.CursorShape.PointingHandCursor)
         self.add_button.setFixedHeight(30)  # Set the height to match the search input
-        add_icon = QIcon(r"Front-End\movies img\add.svg")
+        add_icon = QIcon(r"movies img\add.svg")
         self.add_button.setIcon(add_icon)
         self.add_button.setIconSize(QSize(24, 24))
         self.top_bar_layout.addWidget(self.add_button, alignment=Qt.AlignRight)  # Align the add button to the right

@@ -8,7 +8,6 @@ from qt_material import list_themes
 
 def main():
     app = QApplication([])
-
     apply_stylesheet(app, theme='dark_medical.xml')
     model = MovieModel()
     view = MovieView(None, model.movies)  # Initialize view first

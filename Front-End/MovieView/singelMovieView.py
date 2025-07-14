@@ -216,22 +216,22 @@ class SingleMovieView(QWidget):
                 
                 if obj.objectName() == "update_btn":
                     obj.setText("")
-                    obj.setIcon(QIcon(r"Front-End\movies img/edit.svg"))
+                    obj.setIcon(QIcon(r"movies img/edit.svg"))
                     obj.setIconSize(QSize(36, 36))
                     
                 elif obj.objectName() == "del_btn":
                     obj.setText("")
-                    obj.setIcon(QIcon(r"Front-End\movies img/delete.svg"))
+                    obj.setIcon(QIcon(r"movies img/delete.svg"))
                     obj.setIconSize(QSize(36, 36))
                     
                 elif obj.objectName() == "back_btn":
                     obj.setText("")
-                    obj.setIcon(QIcon(r"Front-End\movies img/menu.svg"))
+                    obj.setIcon(QIcon(r"movies img/menu.svg"))
                     obj.setIconSize(QSize(36, 36))
                     
                 elif obj.objectName() == "check_btn":
                     obj.setText("")
-                    obj.setIcon(QIcon(r"Front-End\movies img/adult_content.svg"))
+                    obj.setIcon(QIcon(r"movies img/adult_content.svg"))
                     obj.setIconSize(QSize(36, 36))
                     
             elif event.type() == QEvent.Leave:
@@ -314,7 +314,7 @@ class SingleMovieView(QWidget):
                     margin: 5px 0;
                 """)
                 delete_button = QPushButton()
-                delete_button.setIcon(QIcon(r"Front-End\movies img/delete.svg"))
+                delete_button.setIcon(QIcon(r"movies img/delete.svg"))
                 delete_button.setFixedSize(30, 30)
                 delete_button.setStyleSheet("border: none;")
                 delete_button.setCursor(Qt.CursorShape.PointingHandCursor)
