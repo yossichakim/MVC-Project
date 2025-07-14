@@ -207,7 +207,7 @@ class AddMovieForm(QWidget):
             return set()
 
     def save_api_movie_ids(self):
-        with open('c:/Users/User/source/repos/MVC - Project/id\'s_from_api.json', 'w') as file:
+        with open('c:/Users/User/source/repos/movie-review-platform/id\'s_from_api.json', 'w') as file:
             json.dump(sorted(list(self.api_movie_ids)), file)  # Sort IDs when saving
 
     def fetch_movie_data(self):

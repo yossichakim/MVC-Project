@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\MoviesServer.csproj": {}
+    "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\MoviesServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\MoviesServer.csproj": {
+    "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\MoviesServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\MoviesServer.csproj",
+        "projectUniqueName": "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\MoviesServer.csproj",
         "projectName": "MoviesServer",
-        "projectPath": "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\MoviesServer.csproj",
+        "projectPath": "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\MoviesServer.csproj",
         "packagesPath": "C:\\Users\\melon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\obj\\",
+        "outputPath": "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wEWjemFVmto=",
+  "dgSpecHash": "tWAwRJu1k+g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\melon\\Desktop\\MVC-Project\\Back-End\\MoviesServer\\MoviesServer.csproj",
+  "projectFilePath": "C:\\Users\\melon\\Desktop\\movie-review-platform\\Back-End\\MoviesServer\\MoviesServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\melon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
